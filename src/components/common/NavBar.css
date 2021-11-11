@@ -11,6 +11,21 @@
   max-width: 100%;
 }
 
+.c-nav-bar__powered-by {
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-right: auto;
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+.c-nav-bar__tmdb-logo {
+  display: block;
+  width: 64px;
+  height: auto;
+  margin:  4px auto 0;
+}
+
 .c-nav-bar__profile {
   margin-left: 30px;
 }
@@ -18,5 +33,9 @@
 @media (max-width: 480px) {
   .c-nav-bar__logo {
     max-height: 30px;
+  }
+
+  .c-nav-bar__tmdb-logo {
+    width: 40px;
   }
 }

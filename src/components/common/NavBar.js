@@ -18,7 +18,11 @@ export default function NavBar() {
   return (
     <HideOnScroll>
       <AppBar className="c-nav-bar" position="fixed">
-        <img className="c-nav-bar__logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="" />
+        <img className="c-nav-bar__logo" src="./netflix-logo.svg" alt="" />
+        <div className="c-nav-bar__powered-by">
+          Powered By:
+          <img className="c-nav-bar__tmdb-logo" src="./tmdb-logo.svg" alt="" />
+        </div>
         <AccountBoxIcon className="c-nav-bar__profile" fontSize="large" />
       </AppBar>
     </HideOnScroll>
