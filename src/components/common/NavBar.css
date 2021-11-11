@@ -1,0 +1,22 @@
+.c-nav-bar {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.c-nav-bar__logo {
+  max-height: 50px;
+  max-width: 100%;
+}
+
+.c-nav-bar__profile {
+  margin-left: 30px;
+}
+
+@media (max-width: 480px) {
+  .c-nav-bar__logo {
+    max-height: 30px;
+  }
+}
